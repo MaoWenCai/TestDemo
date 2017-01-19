@@ -31,6 +31,7 @@ public class TestContinue {
 					//当前for会结束
 					break;
 				}
+				System.out.println("输出222=");
 				System.out.println("输出="+i +"*"+j+"="+ i*j);
 			}
 		}
