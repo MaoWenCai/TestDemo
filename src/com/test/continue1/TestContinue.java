@@ -21,7 +21,7 @@ public class TestContinue {
 			System.out.println(i);
 		}
 	}
-	
+	//测试。
 	@Test
 	public void test3(){
 		for(int i=0;i<5;i++){
