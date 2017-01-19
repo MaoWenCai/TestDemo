@@ -24,6 +24,7 @@ public class TestContinue {
 	//测试。
 	//测试2
 	//测试3
+	//测试4
 	@Test
 	public void test3(){
 		for(int i=0;i<5;i++){
@@ -34,6 +35,8 @@ public class TestContinue {
 				}
 				System.out.println("输出=====");
 				System.out.println("输出="+i +"*"+j+"="+ i*j);
+				System.out.println("输出结束=====");
+				
 			}
 		}
 	}
