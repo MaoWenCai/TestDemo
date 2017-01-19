@@ -16,4 +16,9 @@ public class TestGit {
 	public void test2(){
 		System.out.println("bb2");
 	}
+	
+	@Test
+	public void test3(){
+		System.out.println("cc3");
+	}
 }
