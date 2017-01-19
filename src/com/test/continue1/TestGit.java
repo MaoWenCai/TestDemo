@@ -16,5 +16,11 @@ public class TestGit {
 	public void test2(){
 		System.out.println("bb2");
 	}
+	
+	//新增test3
+	@Test
+	public void test3(){
+		System.out.println("输出test3");
+	}
 
 }
