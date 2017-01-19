@@ -32,7 +32,6 @@ public class TestContinue {
 					break;
 				}
 				System.out.println(i +"*"+j+"="+ i*j);
-				//输出值是:				
 			}
 		}
 	}
