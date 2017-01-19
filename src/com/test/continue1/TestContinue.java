@@ -25,6 +25,7 @@ public class TestContinue {
 	//测试2
 	//测试3
 	//测试4
+	//测试5.git	
 	@Test
 	public void test3(){
 		for(int i=0;i<5;i++){
@@ -33,6 +34,7 @@ public class TestContinue {
 					//当前for会结束
 					break;
 				}
+				System.out.println("输出git=====");
 				System.out.println("输出=====");
 				System.out.println("输出="+i +"*"+j+"="+ i*j);
 				System.out.println("输出结束11=====");
