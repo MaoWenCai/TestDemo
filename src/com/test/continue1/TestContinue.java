@@ -22,7 +22,8 @@ public class TestContinue {
 		}
 	}
 	//测试。
-	//测试2	
+	//测试2
+	//测试3
 	@Test
 	public void test3(){
 		for(int i=0;i<5;i++){
