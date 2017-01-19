@@ -45,6 +45,7 @@ public class TestContinue {
 		}
 	}
 	
+	//测试continue
 	@Test
 	public void test4(){
 		for(int i=0;i<5;i++){
@@ -52,6 +53,7 @@ public class TestContinue {
 				if(j==2){
 					continue;
 				}
+				System.out.println("输出===");
 				System.out.println(i +"*"+j+"="+ i*j);
 			}
 		}
