@@ -27,4 +27,9 @@ public class TestGit {
 	public void test4(){
 		System.out.println("输出test4");
 	}
+	
+	@Test
+	public void test5(){
+		System.out.println("输出test5");
+	}
 }
