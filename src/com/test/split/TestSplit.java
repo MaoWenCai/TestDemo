@@ -48,4 +48,78 @@ public class TestSplit {
 			}
 		}
 	}
+	
+	@Test
+	public void test4(){
+		String avoid="1,,4,8,";
+		String[] arr = avoid.split(",");
+		System.out.println(arr.length);//4
+		for(int i=0;i<arr.length;i++){
+			System.out.println(arr[i]);
+		}
+/**
+ 4
+1
+
+4
+8
+		
+ */
+	}
+	@Test
+	public void test41(){
+		String avoid="1,,4,8, ";
+		String[] arr = avoid.split(",");
+		System.out.println(arr.length);//5
+		for(int i=0;i<arr.length;i++){
+			System.out.println(arr[i]);
+		}
+/*
+ 5
+1
+
+4
+8
+ 
+		
+ */
+	}
+	
+	@Test
+	public void test42(){
+		String avoid=",1,,4,8";
+		String[] arr = avoid.split(",");
+		System.out.println(arr.length);//5
+		for(int i=0;i<arr.length;i++){
+			System.out.println(arr[i]);
+		}
+		
+		/**
+5
+
+1
+
+4
+8 
+*/
+	}
+	
+	@Test
+	public void test43(){
+		String avoid=",,1,,4,8";
+		String[] arr = avoid.split(",");
+		System.out.println(arr.length);//6
+		for(int i=0;i<arr.length;i++){
+			System.out.println(arr[i]);
+		}
+		
+		/**
+5
+
+1
+
+4
+8 
+*/
+	}
 }
